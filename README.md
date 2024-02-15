@@ -10,15 +10,16 @@
    - Launch the Postman application.
 
 3. **Test Endpoints:**
+
+      - **Register Endpoint:**
+     - Method: POST
+     - URL: `http://localhost:3000/auth/register`
+     - Body (JSON): `{"username": "Shreyashs", "password": "hello"}`
+     - 
    - **Login Endpoint:**
      - Method: POST
      - URL: `http://localhost:3000/auth/login`
      - Body (JSON): `{"username": "Shreyas", "password": "Test123"}`
-
-   - **Register Endpoint:**
-     - Method: POST
-     - URL: `http://localhost:3000/auth/register`
-     - Body (JSON): `{"username": "Shreyashs", "password": "hello"}`
 
    - **Create New Blog:**
      - Method: POST
