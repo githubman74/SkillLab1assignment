@@ -14,12 +14,12 @@
       - **Register Endpoint:**
      - Method: POST
      - URL: `http://localhost:3000/auth/register`
-     - Body (JSON): `{"username": "Shreyashs", "password": "hello"}`
+     - Body (JSON): `{"username": "anoodh", "password": "password"}`
      - 
    - **Login Endpoint:**
      - Method: POST
      - URL: `http://localhost:3000/auth/login`
-     - Body (JSON): `{"username": "Shreyas", "password": "Test123"}`
+     - Body (JSON): `{"username": "anoodh", "password": "password"}`
 
    - **Create New Blog:**
      - Method: POST
